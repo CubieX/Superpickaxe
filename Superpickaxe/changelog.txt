@@ -1,0 +1,7 @@
+Changelog of Superpickaxe (forked by CubieX)
+--------------------------------------------
+
+V1.0.0
+- built against CB 1.4.2-R0.2
+- added fix to prevent Anti-Cheat plugin to cancel instaBreak
+- now uses superperms API

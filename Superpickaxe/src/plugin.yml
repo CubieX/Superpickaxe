@@ -1,0 +1,23 @@
+name: Superpickaxe
+version: 1.0.0
+author: DiddiZ/CubieX
+main: de.diddiz.superpickaxe.Superpickaxe
+description: Adds a simple super pickaxe.
+softdepend: [LogBlock, WorldEdit]
+commands:
+  spa:
+    description: 'Enables or disables super pickaxe'
+    usage: 'Usage: /<command>'
+    aliases: []
+permissions:
+    superpickaxe.*:
+        description: Gives access to all SuperPickaxe commands
+        children:
+            superpickaxe.use: true
+            superpickaxe.breakAll: true
+    superpickaxe.use:
+        description: 'Allows to use the super pickaxe'
+        default: op
+    superpickaxe.breakAll:
+        description: 'Allows to ignore dontBreak listed blocks'
+        default: op
